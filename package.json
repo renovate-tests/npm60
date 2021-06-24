@@ -4,6 +4,7 @@
     "lodash": "4.17.20"
   },
   "renovate": {
+    "recreateClosed": true,
     "packageRules": [{
       "matchUpdateTypes": ["patch", "minor"],
       "rollupName": "Non-major updates"
