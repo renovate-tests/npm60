@@ -4,6 +4,7 @@
     "lodash": "4.17.20"
   },
   "renovate": {
+    "pruneStaleBranches": false,
     "recreateClosed": true,
     "packageRules": [{
       "matchUpdateTypes": ["patch", "minor"],
